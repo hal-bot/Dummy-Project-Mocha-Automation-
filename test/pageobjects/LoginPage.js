@@ -6,6 +6,7 @@ var LoginPage = Object.create(Page, {
     password: { get: function () { return browser.element('input[name="password"]'); } },
     form:     { get: function () { return browser.element('.button=Login'); } },
     verifyText: { get: function () { return browser.getText('.content'); } },
+    verifyNegativeTest: {get: function() {return browser.getText('body > div > div > form > div.ui.error.message');}},
 
     open: { value: function() {
         Page.open.call(this, '/example');

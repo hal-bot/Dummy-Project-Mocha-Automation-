@@ -49,7 +49,8 @@ exports.config = {
         //
         browserName: 'chrome'
 		
-    }
+    },
+ 
 	
 
 	

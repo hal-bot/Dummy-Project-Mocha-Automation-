@@ -1,12 +1,12 @@
 {
   "name": "automationProject",
   "version": "1.0.0",
-  "description": "",
+  "description": "description",
   "main": "index.js",
   "scripts": {
-    "smoke": "node node_modules/webdriverio/bin/wdio wdio.conf.js --mochaOpts.grep=@Smoke",    
+    "smoke": "node node_modules/webdriverio/bin/wdio wdio.conf.js --mochaOpts.grep=@Smoke",
     "test-local": "node node_modules/webdriverio/bin/wdio wdio.conf.js",
-    "test:mocha":"mocha --grep \"<DealsList />\" .",
+    "test:mocha": "mocha --grep \"<DealsList />\" .",
     "clean": "rimraf allure-results",
     "report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
   },
