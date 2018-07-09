@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "login formssssssssss1112",
+    "children" : [ {
+      "name" : "should allow login",
+      "uid" : "55c021ef367167d0",
+      "parentUid" : "53ab968056dbbc8c7f433907529dc717",
+      "status" : "passed",
+      "time" : {
+        "start" : 1531075173691,
+        "stop" : 1531075174784,
+        "duration" : 1093
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "53ab968056dbbc8c7f433907529dc717"
+  } ]
+}

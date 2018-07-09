@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1531079732778' stop='1531079734418'>
+    <name>Login Page Test Cases </name>
+    <title>Login Page Test Cases </title>
+    <test-cases>
+        <test-case start='1531079732778' status='passed' stop='1531079733836'>
+            <name>should allow login @smoke</name>
+            <title>should allow login @smoke</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='feature' value='Authentication'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\ketan.tilve\\automationProject\\test\\specs\\login.js"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1531079733837' status='passed' stop='1531079734418'>
+            <name>should allow login @regression</name>
+            <title>should allow login @regression</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='feature' value='Authentication Negative'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\ketan.tilve\\automationProject\\test\\specs\\login.js"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

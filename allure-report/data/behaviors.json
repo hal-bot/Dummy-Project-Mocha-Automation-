@@ -1,0 +1,21 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "feature 1",
+    "children" : [ {
+      "name" : "should allow login",
+      "uid" : "55c021ef367167d0",
+      "parentUid" : "d2c417bedf49ddb498e7e597f0d65cdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1531075173691,
+        "stop" : 1531075174784,
+        "duration" : 1093
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "d2c417bedf49ddb498e7e597f0d65cdc"
+  } ]
+}

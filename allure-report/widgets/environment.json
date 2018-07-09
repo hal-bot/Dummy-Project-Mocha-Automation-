@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"browserName\":\"chrome\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"C:\\\\Users\\\\ketan.tilve\\\\automationProject\\\\test\\\\specs\\\\login.js\"]" ],
+  "name" : "spec files"
+} ]

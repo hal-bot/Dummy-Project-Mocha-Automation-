@@ -1,0 +1,41 @@
+{
+  "name": "automationProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "smoke": "node node_modules/webdriverio/bin/wdio wdio.conf.js --mochaOpts.grep=@Smoke",    
+    "test-local": "node node_modules/webdriverio/bin/wdio wdio.conf.js",
+    "test:mocha":"mocha --grep \"<DealsList />\" .",
+    "clean": "rimraf allure-results",
+    "report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-commandline": "^2.5.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "mocha-tags": "^1.0.1",
+    "wdio-allure-reporter": "^0.6.3",
+    "wdio-mocha-framework": "^0.6.2",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.13.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-webdriverio": "^0.4.3",
+    "log4js": "^2.10.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "mocha-report-log": "0.0.4"
+  }
+}

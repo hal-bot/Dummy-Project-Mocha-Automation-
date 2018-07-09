@@ -1,0 +1,57 @@
+{
+  "uid" : "55c021ef367167d0",
+  "name" : "should allow login",
+  "fullName" : "login formssssssssss1112.should allow login",
+  "historyId" : "7574db44acf498d26a506fb2044c9cd3",
+  "time" : {
+    "start" : 1531075173691,
+    "stop" : 1531075174784,
+    "duration" : 1093
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature 1"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "login formssssssssss1112"
+  }, {
+    "name" : "testClass",
+    "value" : "login formssssssssss1112"
+  }, {
+    "name" : "testMethod",
+    "value" : "should allow login"
+  }, {
+    "name" : "package",
+    "value" : "login formssssssssss1112"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55c021ef367167d0.json",
+  "parameterValues" : [ "chrome" ]
+}
