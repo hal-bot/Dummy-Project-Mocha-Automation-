@@ -1,3 +1,5 @@
+//This is Page class that represents parent of all pages 
+
 function Page () {
     this.title = 'My Page';
 }
