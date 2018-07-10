@@ -16,7 +16,8 @@ describe('Login Page Test Cases for Application ', function()
             LoginPage.username.setValue('valid@user.com');
             LoginPage.password.setValue('hunter2');
             LoginPage.submit();
-            assert.equal(LoginPage.verifyText,"You\'re logged in!");
+            browser.pause(3000);
+            assert.equal(LoginPage.verifyPositiveText,"You're logged in!");
             reporter.feature('Authentication- Positve=');
         
         })
